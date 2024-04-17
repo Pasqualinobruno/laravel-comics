@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgba(24, 30, 30, 0.947);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.superiore {
+    background-color: blue;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+
+
+    li {
+        list-style: none;
+        color: white;
+        margin-left: 3rem;
+        margin-right: 2rem;
+        font-size: small;
+
+    }
+
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    img {
+        width: 50px;
+    }
+
+    .navbar-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+
+        li {
+            padding: 15px;
+        }
+
+        li,
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        li a:hover {
+            color: blue;
+            /* Cambia colore al passaggio del mouse */
+        }
+    }
+
+}
+
+.junbotron {
+    height: 50vh;
+    background-image: url('../views/images/jumbotron.jpg');
+    background-size: cover;
+    position: relative;
+
+
+
+}
+
+.series {
+    background-color: blue;
+    color: white;
+    width: 12rem;
+    text-align: center;
+    padding: 0.3rem;
+    font-size: large;
+    position: absolute;
+    bottom: -15px;
+    left: 300px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    margin: auto;
+}
+
+[class^="col-"] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.col-2 {
+    width: calc((100%/12)*2);
+}
+
+.col-5 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+
+    img {
+        width: 50px;
+    }
+}
+
+
+.card {
+    p {
+        font-size: small;
+        color: white;
+        text-align: center;
+    }
+}
+
+.top-footer {
+    background-color: blue;
+}
